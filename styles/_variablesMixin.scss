@@ -1,0 +1,18 @@
+// Colours
+$backgroundColor: #76ba99;
+$primaryColor: #876445;
+$secondryColor: #ca955c;
+$textColor: #eddfb3;
+
+// Font-size
+// $heading: 3rem;
+// $h2size: 2.5rem;
+// $h3size: 2rem;
+// $textSize: 1.25rem;
+
+@mixin flex-center($direction) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Source+Code+Pro&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-color: darkgrey;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.box {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 400px;
+  background-color: aqua;
+  border: 0.2rem solid orange;
+  border-radius: 1rem;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.box img {
+  height: 350px;
+  width: 450px;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.body {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */

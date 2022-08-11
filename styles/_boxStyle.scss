@@ -2,29 +2,36 @@
   @include flex-center(row);
   flex-wrap: wrap;
   align-items: flex-start;
+  padding-top: 3rem;
 }
 
 .box {
   height: fit-content;
-  width: 400px;
-  background-color: aqua;
-  border: 0.2rem solid orange;
-  border-radius: 1rem;
+  width: 250px;
+  // background-color: $primaryColor;
+  // border: 0.2rem solid $secondryColor;
   margin: 1rem;
   overflow: hidden;
+  // border-radius: 1rem;
   & img {
-    height: 350px;
-    width: 450px;
+    height: 250px;
+    width: 250px;
+    border-radius: 1rem;
   }
 }
 
 .content {
-  padding: 1rem;
+  padding-top: 1rem;
+  // color: ;
+}
+
+.user {
+  text-decoration: underline;
 }
 
 .title {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .body {

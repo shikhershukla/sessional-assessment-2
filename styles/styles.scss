@@ -16,10 +16,11 @@ html {
 
 body {
   font-family: "Mulish", sans-serif;
-  background-color: darkgrey;
+  background-color: $backgroundColor;
   box-sizing: border-box;
   height: 100vh;
   margin: 0;
 }
 
 @import "_boxStyle";
+@import "_navbar";

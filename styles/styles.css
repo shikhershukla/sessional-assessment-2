@@ -15,7 +15,7 @@ html {
 
 body {
   font-family: "Mulish", sans-serif;
-  background-color: darkgrey;
+  background-color: #76ba99;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   height: 100vh;
@@ -41,35 +41,114 @@ body {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  padding-top: 3rem;
 }
 
 .box {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  width: 400px;
-  background-color: aqua;
-  border: 0.2rem solid orange;
-  border-radius: 1rem;
+  width: 250px;
   margin: 1rem;
   overflow: hidden;
 }
 
 .box img {
-  height: 350px;
-  width: 450px;
+  height: 250px;
+  width: 250px;
+  border-radius: 1rem;
 }
 
 .content {
-  padding: 1rem;
+  padding-top: 1rem;
+}
+
+.user {
+  text-decoration: underline;
 }
 
 .title {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .body {
   font-size: 1rem;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #876445;
+  padding: 0rem 4%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 4;
+}
+
+.nav__logo {
+  font-size: 2rem;
+  font-family: "Neonderthaw", cursive;
+  padding: 0.2rem;
+  color: #eddfb3;
+}
+
+.nav__logo:hover {
+  color: white;
+}
+
+.nav__links {
+  color: #eddfb3;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5rem;
+  padding: 1rem;
+  list-style: none;
+  cursor: pointer;
+  padding-right: 5rem;
+}
+
+.nav__links > li > * {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav__links > li > *:hover {
+  color: white;
+}
+
+.nav__search {
+  color: transparent;
+}
+
+.nav__search img {
+  height: 1.5rem;
+  width: 1.5rem;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,49 @@
+nav {
+    @include flex-center(row);
+    justify-content: space-around;
+    background-color: $primaryColor;
+    padding: 0rem 4%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 4;
+  }
+  
+  .nav__logo {
+    font-size: 2rem;
+    font-family: "Neonderthaw", cursive;
+    padding: 0.2rem;
+    // font-family: "Source Code Pro", monospace;
+    color: $textColor;
+  }
+  
+  .nav__logo:hover {
+    color: white;
+  }
+  
+  .nav__links {
+    color: $textColor;
+    font-size: 1.2rem;
+    @include flex-center(row);
+    gap: 5rem;
+    padding: 1rem;
+    list-style: none;
+    cursor: pointer;
+    padding-right: 5rem;
+  }
+  .nav__links > li > * {
+    text-decoration: none;
+    color: inherit;
+  }
+  .nav__links > li > *:hover {
+    color: white;
+  }
+  
+.nav__search {
+    color: transparent;
+}
+
+  .nav__search img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }

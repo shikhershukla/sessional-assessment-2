@@ -10,9 +10,9 @@ xhr.onreadystatechange = () => {
     for (let i = 0; i < response.length; i++) {
       output += `
         <div class="box">
-            <img src="https://picsum.photos/450/350/?random=${i}"> 
+            <img src="https://picsum.photos/250/?random=${i}"> 
             <div class="content">
-                <p>User - ${response[i].userId}</p>
+                <p class="user">User - ${response[i].userId}</p>
                 <p class="title">${response[i].title}</p>
                 <p class="body">${response[i].body}</p>
             </div>

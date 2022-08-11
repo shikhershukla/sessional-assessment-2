@@ -1,0 +1,49 @@
+.post {
+//   padding-top: 5rem; // to delete
+padding: 1rem;
+  text-align: center;
+  & h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+  }
+  ::placeholder {
+    color: grey;
+  }
+  & form {
+    & input,
+    textarea {
+      font-size: 1rem;
+      margin: 0.3rem 0;
+      border: none;
+      padding: 0.2rem;
+      border-radius: 0.5rem;
+    }
+    .name {
+      width: 80%;
+    }
+    .title {
+      width: 80%;
+    }
+    .subject {
+      width: 80%;
+    }
+    .message {
+      width: 80%;
+      height: 5rem;
+    }
+  }
+  & button {
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    background-color: $primaryColor;
+    color: $textColor;
+    font-size: 1rem;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    &:hover {
+      background-color: #03304f;
+    }
+  }
+}

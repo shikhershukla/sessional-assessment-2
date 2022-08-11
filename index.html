@@ -9,16 +9,31 @@
   </head>
   <body>
     <nav>
-        <p class="nav__logo">Blogger</p>
-        <ul class="nav__links">
-          <li class="nav__links--explore"><a href="#explore">Explore</a></li>
-          <li class="nav__links--post"><a href="#post">Post</a></li>
-        </ul>
-        <button class="nav__search">
-          <img src="./Images/search_icon.png" alt="search icon" />
-        </button>
-      </nav>
-    <div class="container"></div>
+      <p class="nav__logo">Blogger</p>
+      <ul class="nav__links">
+        <li class="nav__links--explore"><a href="#container">Explore</a></li>
+        <li class="nav__links--post"><a href="#post">Post</a></li>
+      </ul>
+      <button class="nav__search">
+        <img src="./Images/search_icon.png" alt="search icon" />
+      </button>
+    </nav>
+    <div class="container" id="container"></div>
+    <div class="post" id="post">
+      <h2>POST</h2>
+      <form>
+        <input type="text" class="name" placeholder="User ID" />
+        <br>
+        <input type="text" class="title" placeholder="Title" />
+        <br>
+        <textarea
+          rows="5"
+          class="message"
+          placeholder="description"
+        ></textarea>
+      </form>
+      <button onclick="myFunction()" class="btn">POST</button>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>

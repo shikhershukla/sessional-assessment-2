@@ -151,4 +151,73 @@ nav {
   height: 1.5rem;
   width: 1.5rem;
 }
+
+.post {
+  padding: 1rem;
+  text-align: center;
+}
+
+.post h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.post ::-webkit-input-placeholder {
+  color: grey;
+}
+
+.post :-ms-input-placeholder {
+  color: grey;
+}
+
+.post ::-ms-input-placeholder {
+  color: grey;
+}
+
+.post ::placeholder {
+  color: grey;
+}
+
+.post form input,
+.post form textarea {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  border: none;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+
+.post form .name {
+  width: 80%;
+}
+
+.post form .title {
+  width: 80%;
+}
+
+.post form .subject {
+  width: 80%;
+}
+
+.post form .message {
+  width: 80%;
+  height: 5rem;
+}
+
+.post button {
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  background-color: #876445;
+  color: #eddfb3;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.post button:hover {
+  background-color: #03304f;
+}
 /*# sourceMappingURL=styles.css.map */

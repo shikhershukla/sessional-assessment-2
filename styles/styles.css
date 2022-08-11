@@ -108,6 +108,11 @@ nav {
   color: #eddfb3;
 }
 
+.nav__logo img {
+  height: 3rem;
+  width: 3rem;
+}
+
 .nav__logo:hover {
   color: white;
 }

@@ -12,6 +12,7 @@
 html {
   font-size: 62.5;
   scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
 }
 
 body {
@@ -25,3 +26,4 @@ body {
 @import "_boxStyle";
 @import "_navbar";
 @import "_post";
+@import "_footer";
